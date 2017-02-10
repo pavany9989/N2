@@ -1,10 +1,18 @@
 <<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" ?>
+<<<<<<< HEAD
 <testsuite tests="3" failures="0" name="TestSuite" time="8.495" errors="0" skipped="0">
 =======
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuite tests="3" failures="0" name="TestSuite" time="8.596" errors="0" skipped="0">
 >>>>>>> refs/heads/master
+=======
+<testsuite tests="3" failures="0" name="TestSuite" time="13.725" errors="0" skipped="0">
+=======
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="0" name="TestSuite" time="8.596" errors="0" skipped="0">
+>>>>>>> 0a78c4ce50e83df98f64736efee78e323b659bfb
+>>>>>>> f025131cc5ca40e461a7eb9e6a6985466531b32e
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_121\bin"/>
@@ -33,10 +41,17 @@
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <property name="classworlds.conf" value="C:\Users\VDW7QYM\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4437432422493185487.tmp"/>
 =======
     <property name="classworlds.conf" value="C:\Users\VDW7QYM\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf9114918024020237511.tmp"/>
 >>>>>>> refs/heads/master
+=======
+    <property name="classworlds.conf" value="C:\Users\VDW7QYM\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2266849553203851178.tmp"/>
+=======
+    <property name="classworlds.conf" value="C:\Users\VDW7QYM\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf9114918024020237511.tmp"/>
+>>>>>>> 0a78c4ce50e83df98f64736efee78e323b659bfb
+>>>>>>> f025131cc5ca40e461a7eb9e6a6985466531b32e
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WinZip;C:\Program Files (x86)\CheckPoint\Endpoint Security\Endpoint Common\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Apache\Maven\bin;C:\Users\VDW7QYM\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -72,11 +87,20 @@
   </properties>
 <<<<<<< HEAD
   <testcase classname="MAX.AppTest" name="testApp" time="0.002"/>
+<<<<<<< HEAD
   <testcase classname="MAX.SeleniumHQ" name="testEasy" time="1.581"/>
   <testcase classname="MAX.SeleniumHQJUNIT" name="valid_UserCredential" time="6.912"/>
+=======
+  <testcase classname="MAX.SeleniumHQ" name="testEasy" time="1.563"/>
+  <testcase classname="MAX.SeleniumHQJUNIT" name="valid_UserCredential" time="12.16"/>
+>>>>>>> f025131cc5ca40e461a7eb9e6a6985466531b32e
 =======
   <testcase classname="MAX.AppTest" name="testApp" time="0.001"/>
   <testcase classname="MAX.SeleniumHQ" name="testEasy" time="1.433"/>
   <testcase classname="MAX.SeleniumHQJUNIT" name="valid_UserCredential" time="7.162"/>
+<<<<<<< HEAD
 >>>>>>> refs/heads/master
+=======
+>>>>>>> 0a78c4ce50e83df98f64736efee78e323b659bfb
+>>>>>>> f025131cc5ca40e461a7eb9e6a6985466531b32e
 </testsuite>
