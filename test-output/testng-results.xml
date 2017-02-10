@@ -2,18 +2,18 @@
 <testng-results skipped="21" failed="0" total="21" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="16" started-at="2017-02-10T11:41:13Z" finished-at="2017-02-10T11:41:13Z">
+  <suite name="Suite" duration-ms="11" started-at="2017-02-10T13:57:27Z" finished-at="2017-02-10T13:57:27Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="16" started-at="2017-02-10T11:41:13Z" finished-at="2017-02-10T11:41:13Z">
+    <test name="Test" duration-ms="11" started-at="2017-02-10T13:57:27Z" finished-at="2017-02-10T13:57:27Z">
       <class name="MAX.AppTest">
-        <test-method status="SKIP" signature="testApp()[pri:0, instance:MAX.AppTest@54cf7c6a]" name="testApp" duration-ms="1" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="testApp()[pri:0, instance:MAX.AppTest@54cf7c6a]" name="testApp" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testApp -->
       </class> <!-- MAX.AppTest -->
       <class name="MAX.SeleniumHQ">
-        <test-method status="FAIL" signature="beforeTest()[pri:0, instance:MAX.SeleniumHQ@5527b211]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="FAIL" signature="beforeTest()[pri:0, instance:MAX.SeleniumHQ@5527b211]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <exception class="java.lang.NoClassDefFoundError">
             <message>
               <![CDATA[org/openqa/selenium/remote/RenderedRemoteWebElement]]>
@@ -67,47 +67,47 @@ Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.remote.Rendered
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="SKIP" signature="testEasy()[pri:0, instance:MAX.SeleniumHQ@5527b211]" name="testEasy" duration-ms="1" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="testEasy()[pri:0, instance:MAX.SeleniumHQ@5527b211]" name="testEasy" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEasy -->
-        <test-method status="SKIP" signature="afterTest()[pri:0, instance:MAX.SeleniumHQ@5527b211]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:MAX.SeleniumHQ@5527b211]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- MAX.SeleniumHQ -->
       <class name="MAX.SeleniumHQJUNIT">
-        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@468dda3e]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@468dda3e]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="SKIP" signature="valid_UserCredential()[pri:0, instance:MAX.SeleniumHQJUNIT@468dda3e]" name="valid_UserCredential" duration-ms="2" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="valid_UserCredential()[pri:0, instance:MAX.SeleniumHQJUNIT@468dda3e]" name="valid_UserCredential" duration-ms="1" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- valid_UserCredential -->
-        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@468dda3e]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@468dda3e]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- MAX.SeleniumHQJUNIT -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
-  <suite name="Failed suite [Failed suite [Default suite]]" duration-ms="11" started-at="2017-02-10T11:41:13Z" finished-at="2017-02-10T11:41:13Z">
+  <suite name="Failed suite [Failed suite [Default suite]]" duration-ms="8" started-at="2017-02-10T13:57:27Z" finished-at="2017-02-10T13:57:27Z">
     <groups>
     </groups>
-    <test name="Default test(failed)(failed)" duration-ms="11" started-at="2017-02-10T11:41:13Z" finished-at="2017-02-10T11:41:13Z">
+    <test name="Default test(failed)(failed)" duration-ms="8" started-at="2017-02-10T13:57:27Z" finished-at="2017-02-10T13:57:27Z">
       <class name="MAX.AppTest">
-        <test-method status="SKIP" signature="testApp()[pri:0, instance:MAX.AppTest@a0db585]" name="testApp" duration-ms="1" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="testApp()[pri:0, instance:MAX.AppTest@a0db585]" name="testApp" duration-ms="1" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testApp -->
-        <test-method status="SKIP" signature="testApp()[pri:0, instance:MAX.AppTest@a0db585]" name="testApp" duration-ms="1" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="testApp()[pri:0, instance:MAX.AppTest@a0db585]" name="testApp" duration-ms="1" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testApp -->
       </class> <!-- MAX.AppTest -->
       <class name="MAX.SeleniumHQ">
-        <test-method status="FAIL" signature="beforeTest()[pri:0, instance:MAX.SeleniumHQ@7636823f]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="FAIL" signature="beforeTest()[pri:0, instance:MAX.SeleniumHQ@7636823f]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <exception class="java.lang.NoClassDefFoundError">
             <message>
               <![CDATA[org/openqa/selenium/remote/RenderedRemoteWebElement]]>
@@ -161,63 +161,63 @@ Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.remote.Rendered
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="SKIP" signature="testEasy()[pri:0, instance:MAX.SeleniumHQ@7636823f]" name="testEasy" duration-ms="2" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="testEasy()[pri:0, instance:MAX.SeleniumHQ@7636823f]" name="testEasy" duration-ms="1" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEasy -->
-        <test-method status="SKIP" signature="afterTest()[pri:0, instance:MAX.SeleniumHQ@7636823f]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:MAX.SeleniumHQ@7636823f]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="SKIP" signature="beforeTest()[pri:0, instance:MAX.SeleniumHQ@7636823f]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="beforeTest()[pri:0, instance:MAX.SeleniumHQ@7636823f]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="SKIP" signature="testEasy()[pri:0, instance:MAX.SeleniumHQ@7636823f]" name="testEasy" duration-ms="1" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="testEasy()[pri:0, instance:MAX.SeleniumHQ@7636823f]" name="testEasy" duration-ms="1" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEasy -->
-        <test-method status="SKIP" signature="afterTest()[pri:0, instance:MAX.SeleniumHQ@7636823f]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:MAX.SeleniumHQ@7636823f]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- MAX.SeleniumHQ -->
       <class name="MAX.SeleniumHQJUNIT">
-        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@7c8d5312]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="valid_UserCredential()[pri:0, instance:MAX.SeleniumHQJUNIT@7c8d5312]" name="valid_UserCredential" duration-ms="2" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_UserCredential -->
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@7c8d5312]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="SKIP" signature="valid_UserCredential()[pri:0, instance:MAX.SeleniumHQJUNIT@7c8d5312]" name="valid_UserCredential" duration-ms="1" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- valid_UserCredential -->
-        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@7c8d5312]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@7c8d5312]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="SKIP" signature="valid_UserCredential()[pri:0, instance:MAX.SeleniumHQJUNIT@7c8d5312]" name="valid_UserCredential" duration-ms="1" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="valid_UserCredential()[pri:0, instance:MAX.SeleniumHQJUNIT@7c8d5312]" name="valid_UserCredential" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- valid_UserCredential -->
-        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@7c8d5312]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@7c8d5312]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- MAX.SeleniumHQJUNIT -->
     </test> <!-- Default test(failed)(failed) -->
   </suite> <!-- Failed suite [Failed suite [Default suite]] -->
-  <suite name="Failed suite [Failed suite [Suite]]" duration-ms="14" started-at="2017-02-10T11:41:13Z" finished-at="2017-02-10T11:41:13Z">
+  <suite name="Failed suite [Failed suite [Suite]]" duration-ms="15" started-at="2017-02-10T13:57:27Z" finished-at="2017-02-10T13:57:27Z">
     <groups>
     </groups>
-    <test name="Test(failed)(failed)" duration-ms="14" started-at="2017-02-10T11:41:13Z" finished-at="2017-02-10T11:41:13Z">
+    <test name="Test(failed)(failed)" duration-ms="15" started-at="2017-02-10T13:57:27Z" finished-at="2017-02-10T13:57:27Z">
       <class name="MAX.AppTest">
-        <test-method status="SKIP" signature="testApp()[pri:0, instance:MAX.AppTest@8deb645]" name="testApp" duration-ms="1" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="testApp()[pri:0, instance:MAX.AppTest@8deb645]" name="testApp" duration-ms="1" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testApp -->
       </class> <!-- MAX.AppTest -->
       <class name="MAX.SeleniumHQ">
-        <test-method status="FAIL" signature="beforeTest()[pri:0, instance:MAX.SeleniumHQ@7d9ba6c]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="FAIL" signature="beforeTest()[pri:0, instance:MAX.SeleniumHQ@7d9ba6c]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <exception class="java.lang.NoClassDefFoundError">
             <message>
               <![CDATA[org/openqa/selenium/remote/RenderedRemoteWebElement]]>
@@ -271,43 +271,43 @@ Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.remote.Rendered
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="SKIP" signature="testEasy()[pri:0, instance:MAX.SeleniumHQ@7d9ba6c]" name="testEasy" duration-ms="1" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="testEasy()[pri:0, instance:MAX.SeleniumHQ@7d9ba6c]" name="testEasy" duration-ms="1" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEasy -->
-        <test-method status="SKIP" signature="afterTest()[pri:0, instance:MAX.SeleniumHQ@7d9ba6c]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:MAX.SeleniumHQ@7d9ba6c]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- MAX.SeleniumHQ -->
       <class name="MAX.SeleniumHQJUNIT">
-        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@3e47a03]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@3e47a03]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="SKIP" signature="valid_UserCredential()[pri:0, instance:MAX.SeleniumHQJUNIT@3e47a03]" name="valid_UserCredential" duration-ms="1" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="valid_UserCredential()[pri:0, instance:MAX.SeleniumHQJUNIT@3e47a03]" name="valid_UserCredential" duration-ms="1" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- valid_UserCredential -->
-        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@3e47a03]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@3e47a03]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- MAX.SeleniumHQJUNIT -->
     </test> <!-- Test(failed)(failed) -->
   </suite> <!-- Failed suite [Failed suite [Suite]] -->
-  <suite name="Failed suite [Suite]" duration-ms="13" started-at="2017-02-10T11:41:13Z" finished-at="2017-02-10T11:41:13Z">
+  <suite name="Failed suite [Suite]" duration-ms="11" started-at="2017-02-10T13:57:27Z" finished-at="2017-02-10T13:57:27Z">
     <groups>
     </groups>
-    <test name="Test(failed)" duration-ms="13" started-at="2017-02-10T11:41:13Z" finished-at="2017-02-10T11:41:13Z">
+    <test name="Test(failed)" duration-ms="11" started-at="2017-02-10T13:57:27Z" finished-at="2017-02-10T13:57:27Z">
       <class name="MAX.AppTest">
-        <test-method status="SKIP" signature="testApp()[pri:0, instance:MAX.AppTest@3f702946]" name="testApp" duration-ms="1" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="testApp()[pri:0, instance:MAX.AppTest@3f702946]" name="testApp" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testApp -->
       </class> <!-- MAX.AppTest -->
       <class name="MAX.SeleniumHQ">
-        <test-method status="FAIL" signature="beforeTest()[pri:0, instance:MAX.SeleniumHQ@e042c99]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="FAIL" signature="beforeTest()[pri:0, instance:MAX.SeleniumHQ@e042c99]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <exception class="java.lang.NoClassDefFoundError">
             <message>
               <![CDATA[org/openqa/selenium/remote/RenderedRemoteWebElement]]>
@@ -361,43 +361,43 @@ Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.remote.Rendered
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="SKIP" signature="testEasy()[pri:0, instance:MAX.SeleniumHQ@e042c99]" name="testEasy" duration-ms="1" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="testEasy()[pri:0, instance:MAX.SeleniumHQ@e042c99]" name="testEasy" duration-ms="1" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEasy -->
-        <test-method status="SKIP" signature="afterTest()[pri:0, instance:MAX.SeleniumHQ@e042c99]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:MAX.SeleniumHQ@e042c99]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- MAX.SeleniumHQ -->
       <class name="MAX.SeleniumHQJUNIT">
-        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@1a2909ae]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@1a2909ae]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="SKIP" signature="valid_UserCredential()[pri:0, instance:MAX.SeleniumHQJUNIT@1a2909ae]" name="valid_UserCredential" duration-ms="1" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="valid_UserCredential()[pri:0, instance:MAX.SeleniumHQJUNIT@1a2909ae]" name="valid_UserCredential" duration-ms="1" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- valid_UserCredential -->
-        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@1a2909ae]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@1a2909ae]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- MAX.SeleniumHQJUNIT -->
     </test> <!-- Test(failed) -->
   </suite> <!-- Failed suite [Suite] -->
-  <suite name="Failed suite [Failed suite [Failed suite [Default suite]]]" duration-ms="17" started-at="2017-02-10T11:41:13Z" finished-at="2017-02-10T11:41:13Z">
+  <suite name="Failed suite [Failed suite [Failed suite [Default suite]]]" duration-ms="13" started-at="2017-02-10T13:57:27Z" finished-at="2017-02-10T13:57:27Z">
     <groups>
     </groups>
-    <test name="Default test(failed)(failed)(failed)" duration-ms="17" started-at="2017-02-10T11:41:13Z" finished-at="2017-02-10T11:41:13Z">
+    <test name="Default test(failed)(failed)(failed)" duration-ms="13" started-at="2017-02-10T13:57:27Z" finished-at="2017-02-10T13:57:27Z">
       <class name="MAX.AppTest">
-        <test-method status="SKIP" signature="testApp()[pri:0, instance:MAX.AppTest@13741d5a]" name="testApp" duration-ms="3" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="testApp()[pri:0, instance:MAX.AppTest@13741d5a]" name="testApp" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testApp -->
       </class> <!-- MAX.AppTest -->
       <class name="MAX.SeleniumHQ">
-        <test-method status="FAIL" signature="beforeTest()[pri:0, instance:MAX.SeleniumHQ@1b5c3e5f]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="FAIL" signature="beforeTest()[pri:0, instance:MAX.SeleniumHQ@1b5c3e5f]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <exception class="java.lang.NoClassDefFoundError">
             <message>
               <![CDATA[org/openqa/selenium/remote/RenderedRemoteWebElement]]>
@@ -451,43 +451,43 @@ Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.remote.Rendered
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="SKIP" signature="testEasy()[pri:0, instance:MAX.SeleniumHQ@1b5c3e5f]" name="testEasy" duration-ms="1" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="testEasy()[pri:0, instance:MAX.SeleniumHQ@1b5c3e5f]" name="testEasy" duration-ms="1" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEasy -->
-        <test-method status="SKIP" signature="afterTest()[pri:0, instance:MAX.SeleniumHQ@1b5c3e5f]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:MAX.SeleniumHQ@1b5c3e5f]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- MAX.SeleniumHQ -->
       <class name="MAX.SeleniumHQJUNIT">
-        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@fb713e7]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@fb713e7]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="SKIP" signature="valid_UserCredential()[pri:0, instance:MAX.SeleniumHQJUNIT@fb713e7]" name="valid_UserCredential" duration-ms="2" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="valid_UserCredential()[pri:0, instance:MAX.SeleniumHQJUNIT@fb713e7]" name="valid_UserCredential" duration-ms="1" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- valid_UserCredential -->
-        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@fb713e7]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@fb713e7]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- MAX.SeleniumHQJUNIT -->
     </test> <!-- Default test(failed)(failed)(failed) -->
   </suite> <!-- Failed suite [Failed suite [Failed suite [Default suite]]] -->
-  <suite name="Failed suite [Default suite]" duration-ms="83" started-at="2017-02-10T11:41:13Z" finished-at="2017-02-10T11:41:13Z">
+  <suite name="Failed suite [Default suite]" duration-ms="79" started-at="2017-02-10T13:57:27Z" finished-at="2017-02-10T13:57:27Z">
     <groups>
     </groups>
-    <test name="Default test(failed)" duration-ms="83" started-at="2017-02-10T11:41:13Z" finished-at="2017-02-10T11:41:13Z">
+    <test name="Default test(failed)" duration-ms="79" started-at="2017-02-10T13:57:27Z" finished-at="2017-02-10T13:57:27Z">
       <class name="MAX.AppTest">
-        <test-method status="SKIP" signature="testApp()[pri:0, instance:MAX.AppTest@618ad2aa]" name="testApp" duration-ms="2" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="testApp()[pri:0, instance:MAX.AppTest@618ad2aa]" name="testApp" duration-ms="1" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testApp -->
       </class> <!-- MAX.AppTest -->
       <class name="MAX.SeleniumHQ">
-        <test-method status="FAIL" signature="beforeTest()[pri:0, instance:MAX.SeleniumHQ@5ff2b8ca]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="FAIL" signature="beforeTest()[pri:0, instance:MAX.SeleniumHQ@5ff2b8ca]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <exception class="java.lang.NoClassDefFoundError">
             <message>
               <![CDATA[org/openqa/selenium/remote/RenderedRemoteWebElement]]>
@@ -541,25 +541,25 @@ Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.remote.Rendered
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="SKIP" signature="testEasy()[pri:0, instance:MAX.SeleniumHQ@5ff2b8ca]" name="testEasy" duration-ms="3" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="testEasy()[pri:0, instance:MAX.SeleniumHQ@5ff2b8ca]" name="testEasy" duration-ms="2" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEasy -->
-        <test-method status="SKIP" signature="afterTest()[pri:0, instance:MAX.SeleniumHQ@5ff2b8ca]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:MAX.SeleniumHQ@5ff2b8ca]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- MAX.SeleniumHQ -->
       <class name="MAX.SeleniumHQJUNIT">
-        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@7b78ed6a]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@7b78ed6a]" name="openBrowser" is-config="true" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="SKIP" signature="valid_UserCredential()[pri:0, instance:MAX.SeleniumHQJUNIT@7b78ed6a]" name="valid_UserCredential" duration-ms="1" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="valid_UserCredential()[pri:0, instance:MAX.SeleniumHQJUNIT@7b78ed6a]" name="valid_UserCredential" duration-ms="1" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- valid_UserCredential -->
-        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@7b78ed6a]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-02-10T06:41:13Z" finished-at="2017-02-10T06:41:13Z">
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@7b78ed6a]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-02-10T08:57:27Z" finished-at="2017-02-10T08:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

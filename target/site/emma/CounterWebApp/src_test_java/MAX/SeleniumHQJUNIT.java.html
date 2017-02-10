@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../.resources/report.gif" type="image/gif"/><title>SeleniumHQJUNIT.java</title><link rel="stylesheet" href="../../../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../.sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">Coverage (Feb 10, 2017 8:57:28 AM)</a> &gt; <a href="../../index.html" class="el_group">CounterWebApp</a> &gt; <a href="../index.html" class="el_bundle">src/test/java</a> &gt; <a href="index.source.html" class="el_package">MAX</a> &gt; <span class="el_source">SeleniumHQJUNIT.java</span></div><h1>SeleniumHQJUNIT.java</h1><pre class="source lang-java linenums"><span class="nc" id="L1">package MAX;</span>
+
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterClass;
+
+
+
+ 
+import java.util.concurrent.TimeUnit;
+ 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+ 
+<span class="fc" id="L21">public class SeleniumHQJUNIT {</span>
+	 	private static ChromeDriver driver;
+	 	WebElement element;
+ 
+	 @BeforeClass
+     public static void openBrowser(){
+<span class="nc" id="L27">			System.setProperty(&quot;webdriver.chrome.driver&quot;,</span>
+<span class="nc" id="L28">		            &quot;src/main/resources/drivers/chromedriver.exe&quot;);</span>
+<span class="nc" id="L29">         driver = new ChromeDriver();</span>
+<span class="nc" id="L30">         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);</span>
+<span class="nc" id="L31">		} </span>
+	 @Test
+     public void valid_UserCredential(){
+ 
+<span class="nc" id="L35">		 System.out.println(&quot;Starting test &quot; + new Object(){}.getClass().getEnclosingMethod().getName());</span>
+<span class="nc" id="L36">	     driver.get(&quot;http://www.store.demoqa.com&quot;);	</span>
+<span class="nc" id="L37">	     driver.findElement(By.xpath(&quot;.//*[@id='account']/a&quot;)).click();</span>
+<span class="nc" id="L38">	     driver.findElement(By.id(&quot;log&quot;)).sendKeys(&quot;testuserzx&quot;);</span>
+<span class="nc" id="L39">	     driver.findElement(By.id(&quot;pwd&quot;)).sendKeys(&quot;pavany9989&quot;);</span>
+<span class="nc" id="L40">	     driver.findElement(By.id(&quot;login&quot;)).click();</span>
+	     try{
+<span class="nc" id="L42">			 element = driver.findElement (By.xpath(&quot;.//*[@id='account_logout']/a&quot;));</span>
+<span class="nc" id="L43">		 }catch (Exception e){</span>
+			}
+<span class="nc" id="L45">	     AssertJUnit.assertNotNull(element);</span>
+<span class="nc" id="L46">	     System.out.println(&quot;Ending test &quot; + new Object(){}.getClass().getEnclosingMethod().getName());</span>
+<span class="nc" id="L47">     }</span>
+ 
+	 
+ 
+	 @AfterClass
+	 public static void closeBrowser(){
+<span class="nc" id="L53">		 driver.quit();</span>
+<span class="nc" id="L54">	 }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span>Coverage (Feb 10, 2017 8:57:28 AM)</div></body></html>
