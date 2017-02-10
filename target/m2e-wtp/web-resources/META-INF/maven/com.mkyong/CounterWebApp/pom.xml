@@ -18,8 +18,8 @@
 	</properties>
 
 
-
 <distributionManagement>
+
         <repository>
             <id>nexus</id>
             <name>Releases</name>
