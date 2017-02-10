@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="MAX.AppTest">
+        <methods>
+          <include name="testApp"/>
+        </methods>
+      </class> <!-- MAX.AppTest -->
+      <class name="MAX.SeleniumHQ">
+        <methods>
+          <include name="testEasy"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- MAX.SeleniumHQ -->
+      <class name="MAX.SeleniumHQJUNIT">
+        <methods>
+          <include name="valid_UserCredential"/>
+        </methods>
+      </class> <!-- MAX.SeleniumHQJUNIT -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

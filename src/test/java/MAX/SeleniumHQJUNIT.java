@@ -25,7 +25,7 @@ public class SeleniumHQJUNIT {
 	 @BeforeClass
      public static void openBrowser(){
 			System.setProperty("webdriver.chrome.driver",
-		            "src/main/resources/drivers/chromedriver.exe");
+		            "src/main/resources/drivers/chromedriver");
          driver = new ChromeDriver();
          driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		} 
