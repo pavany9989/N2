@@ -3,17 +3,17 @@
 <suite name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="MAX.SeleniumHQJUNIT">
-        <methods>
-          <include name="valid_UserCredential"/>
-        </methods>
-      </class> <!-- MAX.SeleniumHQJUNIT -->
       <class name="MAX.SeleniumHQ">
         <methods>
           <include name="testEasy"/>
           <include name="beforeTest"/>
         </methods>
       </class> <!-- MAX.SeleniumHQ -->
+      <class name="MAX.SeleniumHQJUNIT">
+        <methods>
+          <include name="valid_UserCredential"/>
+        </methods>
+      </class> <!-- MAX.SeleniumHQJUNIT -->
       <class name="MAX.AppTest">
         <methods>
           <include name="testApp"/>
