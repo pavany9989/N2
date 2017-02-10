@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src/main/resources/drivers">
+		<attributes>
+			<attribute name="ignore_optional_problems" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/junit/junit/4.11/junit-4.11.jar" sourcepath="M2_REPO/junit/junit/4.11/junit-4.11-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" sourcepath="M2_REPO/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-core/4.1.1.RELEASE/spring-core-4.1.1.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-core/4.1.1.RELEASE/spring-core-4.1.1.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.jar" sourcepath="M2_REPO/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar" sourcepath="M2_REPO/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.jar" sourcepath="M2_REPO/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/ch/qos/logback/logback-core/1.0.13/logback-core-1.0.13.jar" sourcepath="M2_REPO/ch/qos/logback/logback-core/1.0.13/logback-core-1.0.13-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-web/4.1.1.RELEASE/spring-web-4.1.1.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-web/4.1.1.RELEASE/spring-web-4.1.1.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-aop/4.1.1.RELEASE/spring-aop-4.1.1.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-aop/4.1.1.RELEASE/spring-aop-4.1.1.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" sourcepath="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-beans/4.1.1.RELEASE/spring-beans-4.1.1.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-beans/4.1.1.RELEASE/spring-beans-4.1.1.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-context/4.1.1.RELEASE/spring-context-4.1.1.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-context/4.1.1.RELEASE/spring-context-4.1.1.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-expression/4.1.1.RELEASE/spring-expression-4.1.1.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-expression/4.1.1.RELEASE/spring-expression-4.1.1.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-webmvc/4.1.1.RELEASE/spring-webmvc-4.1.1.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-webmvc/4.1.1.RELEASE/spring-webmvc-4.1.1.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/jstl/jstl/1.2/jstl-1.2.jar"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/commons-exec-1.3-bin/commons-exec-1.3/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/commons-exec-1.3-bin/commons-exec-1.3/commons-exec-1.3-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/commons-exec-1.3-bin/commons-exec-1.3/commons-exec-1.3-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/commons-exec-1.3-bin/commons-exec-1.3/commons-exec-1.3-tests.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/commons-exec-1.3-bin/commons-exec-1.3/commons-exec-1.3-test-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/commons-logging-1.2-bin/commons-logging-1.2/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/commons-logging-1.2-bin/commons-logging-1.2/commons-logging-1.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-chrome-driver-2.0b3.jar/selenium-chrome-driver-2.0b3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/client-combined-3.0.1-nodeps.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/cglib-nodep-3.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/client-combined-3.0.1-nodeps.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/cssparser-0.9.20.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/gson-2.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/guava-19.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/htmlunit-2.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/htmlunit-core-js-2.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/jetty-io-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/jetty-util-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/neko-htmlunit-2.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/netty-3.5.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/phantomjsdriver-1.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/selenium-server-standalone-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/serializer-2.7.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/websocket-api-9.2.15.v20160210.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/websocket-client-9.2.15.v20160210.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/websocket-common-9.2.15.v20160210.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/xalan-2.7.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1/lib/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/emma-2.1.5320.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/jacoco-maven-plugin-0.7.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/junit-3.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/org.junit4_4.8.1.v20120523-1257.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-java-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/selenium-server-standalone-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/sonar-maven-plugin-5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VDW7QYM/Desktop/lib/tomcat-juli.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
